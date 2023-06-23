@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Next.js Starter Blog',
   author: 'Kien Dang',
   headerTitle: 'Kien Dang',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'A space on the internet for my blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -12,10 +12,10 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@kien.dev',
   github: 'https://github.com/kxdang',
-  twitter: 'https://twitter.com/Twitter',
+  twitter: 'https://twitter.com/k1dang',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'www.linkedin.com/in/kien-dang',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

@@ -1,9 +1,17 @@
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
+import Timeline from '@/components/Timeline'
+import { useState } from 'react'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
+
+  const [expanded, setExpanded] = useState(false)
+
+  const handleButtonClick = () => {
+    setExpanded(!expanded)
+  }
 
   return (
     <>
@@ -34,6 +42,19 @@ export default function AuthorLayout({ children, frontMatter }) {
             </div>
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
+          <div className="pb-10 xl:col-span-2 xl:col-start-2">
+            If you're interested in my timeline for my career change into programming, click more
+            <div className="flex justify-center">
+              <button
+                className="mr-2 mb-2 mt-10 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-gradient-to-bl focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+                onClick={handleButtonClick}
+              >
+                more
+              </button>
+            </div>
+          </div>
+
+          {expanded && <Timeline />}
         </div>
       </div>
     </>

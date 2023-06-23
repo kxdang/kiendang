@@ -33,8 +33,10 @@ const option = {
 export default function PomodoroDonut() {
   return (
     <div>
-      <h2 style={{ textAlign: 'center' }}>August Overview</h2>
-      <Doughnut data={data} options={option} />
+      <h2 className="text-center">August Overview</h2>
+      <div className="relative">
+        <Doughnut data={data} options={option} />
+      </div>
     </div>
   )
 }

@@ -9,8 +9,10 @@ linkedin: https://www.linkedin.com/kien-dang
 github: https://github.com/kxdang
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+My name is Kien (pronounced /'key in/). I am a Software Developer at theScore and I have a Bachelor of Science in Honours Biochemistry from the University of Waterloo.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I’m a self motivated learner who likes to program and one of my favourite things to do is try to automate tasks I encounter every day and improve the quality of life through science and technology.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My blog is a platform to share my experiences, interests, introspection and current progress with programming. In addition, I hope to become a better writer by blogging.
+
+I am a data driven individual and always looking to improve my skills and be the best version of myself. Feel free to browse around!

@@ -31,8 +31,8 @@ const data = {
 export default function BarChart() {
   return (
     <div>
-      <h2 style={{ textAlign: 'center' }}>September Pomodoro Data</h2>
-      <div style={{ position: 'relative' }}>
+      <h2 className="text-center">September Pomodoro Data</h2>
+      <div className="relative">
         <Bar data={data} width="100px" height="350px" options={{ maintainAspectRatio: false }} />
       </div>
     </div>
