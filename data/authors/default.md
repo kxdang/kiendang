@@ -1,12 +1,12 @@
 ---
-name: Tails Azimuth
+name: Kien Dang
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Software Developer
+company: Bachelor of Science in Biochemistry
+email: hello@kien.dev
+twitter: https://twitter.com/k1dang
+linkedin: https://www.linkedin.com/kien-dang
+github: https://github.com/kxdang
 ---
 
 Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.

@@ -11,7 +11,7 @@
 }
 
 .footnotes {
-  @apply pt-8 mt-12 border-t border-gray-200 dark:border-gray-700;
+  @apply mt-12 border-t border-gray-200 pt-8 dark:border-gray-700;
 }
 
 .csl-entry {
@@ -22,4 +22,98 @@
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+a.webdev {
+  color: black;
+  background-color: #48bb78;
+}
+
+a.productivity {
+  color: black;
+  background-color: #f78c6c;
+}
+
+a.pomodoro {
+  color: black;
+  background-color: #eb4559;
+}
+
+a.money {
+  color: white;
+  background-color: #1b5e20;
+}
+
+a.technology {
+  color: white;
+  background-color: #0288d1;
+}
+
+a.sci-fi {
+  color: white;
+  background-color: #0288d1;
+}
+
+a.computer-science {
+  color: white;
+  background-color: #005082;
+}
+
+a.java {
+  color: white;
+  background-color: #27496d;
+}
+
+a.life {
+  color: white;
+  background-color: #4a47a3;
+}
+
+a.biochemistry {
+  color: white;
+  background-color: #4a47a3;
+}
+
+a.books {
+  color: black;
+  background-color: #ffcb6b;
+}
+
+a.python {
+  color: black;
+  background-color: #ffcb6b;
+}
+
+a.food {
+  color: white;
+  background-color: #16817a;
+}
+
+a.travel {
+  color: white;
+  background-color: #c17e70;
+}
+
+a.javascript {
+  color: #323330;
+  background-color: #f0db4f;
+}
+
+a.react {
+  color: #61dbfb;
+  background-color: #333;
+}
+
+a.gatsby {
+  color: white;
+  background-color: #8a4baf;
+}
+
+a.graphql {
+  color: white;
+  background-color: #e10098;
+}
+
+center {
+  padding-top: 30px;
 }
