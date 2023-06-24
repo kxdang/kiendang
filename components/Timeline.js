@@ -9,9 +9,6 @@ export default function Timeline() {
           </span>
           <h3 className="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white">
             University of Waterloo{' '}
-            <span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300">
-              Latest
-            </span>
           </h3>
           <time className="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             2011-2016
@@ -171,7 +168,12 @@ export default function Timeline() {
           <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 text-2xl ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900">
             🙌
           </span>
-          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">New Chapter</h3>
+          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+            New Chapter
+            <span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300">
+              Currently in {new Date().getFullYear()}
+            </span>
+          </h3>
           <time className="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             January 2022
           </time>
