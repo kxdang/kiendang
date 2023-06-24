@@ -117,3 +117,12 @@ a.graphql {
 center {
   padding-top: 20px;
 }
+
+.giscus,
+.giscus-frame {
+  width: 100%;
+}
+
+/* .giscus, .giscus-frame, em {
+  display: none !important;
+} */

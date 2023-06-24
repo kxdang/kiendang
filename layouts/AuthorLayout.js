@@ -23,14 +23,6 @@ export default function AuthorLayout({ children, frontMatter }) {
       }
     }
   }, [])
-  useEffect(() => {
-    const isLocalStorageAvailable =
-      typeof window !== 'undefined' && typeof window.localStorage !== 'undefined'
-
-    if (isLocalStorageAvailable) {
-      localStorage.setItem('expanded', expanded)
-    }
-  }, [expanded])
 
   return (
     <>
@@ -62,14 +54,14 @@ export default function AuthorLayout({ children, frontMatter }) {
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
           <div className="pb-10 text-gray-700 dark:text-gray-400 xl:col-span-2 xl:col-start-2">
-            If you're interested in my timeline for my career change into programming, click more
+            If you're interested in my journey into becoming a developer, click more
             <div className="flex justify-center">
               <button
                 className="group relative mt-10 mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-cyan-500 to-blue-500 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-cyan-200 group-hover:from-cyan-500 group-hover:to-blue-500 dark:text-white dark:focus:ring-cyan-800"
                 onClick={handleButtonClick}
               >
                 <span className="relative rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
-                  more
+                  {expanded ? 'hide' : 'more'}
                 </span>
               </button>
             </div>

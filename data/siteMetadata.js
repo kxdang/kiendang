@@ -2,20 +2,19 @@ const siteMetadata = {
   title: 'Kien Dang',
   author: 'Kien Dang',
   headerTitle: 'Kien Dang',
-  description: 'A cybernook in the digital cosmos where my thoughts finds its celestial abode',
+  description:
+    "Kien's cybernook in the digital cosmos where his thoughts finds its celestial abode",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://kiendang.me',
-  siteRepo: 'https://github.com/kiendang',
+  siteRepo: 'https://github.com/kxdang/kiendang',
   // siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@kien.dev',
   github: 'https://github.com/kxdang',
   twitter: 'https://twitter.com/k1dang',
-  // facebook: 'https://facebook.com',
-  // youtube: 'https://youtube.com',
-  linkedin: 'www.linkedin.com/in/kien-dang',
+  linkedin: 'https://linkedin.com/in/kien-dang',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
