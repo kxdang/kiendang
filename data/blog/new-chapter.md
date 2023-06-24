@@ -3,7 +3,7 @@ author: Kien
 date: 2020-06-13
 slug: 2020-new-chapter
 title: 🍾A New Chapter in 2020
-description: 🎉🙌 I'm employed as a Software Developer at Coveo💙🧡!
+summary: 🎉🙌 I'm employed as a Software Developer at Coveo💙🧡!
 tags: ['life']
 ---
 
@@ -25,7 +25,7 @@ I started small and developed positive rituals and routines to get me back on my
 
 In addition, I love self improvement and optimizing every aspect of my life. I really believe that continuous improvement is the key to success. I read <a href="https://www.goodreads.com/book/show/18693655-a-mind-for-numbers" target="blank">A Mind for Numbers</a> by Dr. Oakley to learn how to learn more effectively which became my initiative to improving my Pomodoro process.
 
-I have been able to document every possible steps I have taken to show how far I've come. I have listed all courses and the exact number of hours spent on studying and learning which can be viewed [here](/year-journey-summary/).
+I have been able to document every possible steps I have taken to show how far I've come. I have listed all courses and the exact number of hours spent on studying and learning which can be viewed [here](/blog/year-journey-summary/).
 
 I have been extremely grateful to have the support of my family and friends, without them, I know that I wouldn't have gotten this far. I have been in a very privilege position to be able to achieve my goals, that being said, I made sure I effectively utilized the opportunity I was given to make the career change.
 

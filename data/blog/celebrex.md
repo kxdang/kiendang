@@ -3,7 +3,7 @@ author: Kien
 date: 2019-12-07
 slug: celebrex
 title: 💊Celebrex
-description: My personal experience with Celebrex inspired me to write a bite-sized explanation on how they work.
+summary: My personal experience with Celebrex inspired me to write a bite-sized explanation on how they work.
 tags: ['life', 'biochemistry']
 ---
 

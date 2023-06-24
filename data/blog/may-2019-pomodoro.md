@@ -4,7 +4,7 @@ date: 2019-06-01
 slug: may-2019-pomodoro
 title: '🍅 May Pomodoro Reflection'
 tags: ['pomodoro']
-description: A monthly progress for May. My current status and reflection on my productivity, goals and achievements.
+summary: A monthly progress for May. My current status and reflection on my productivity, goals and achievements.
 ---
 
 ![](/static/images/pomodoros/92pomo.jpg)

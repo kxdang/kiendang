@@ -32,8 +32,10 @@ export default function BarChart() {
   return (
     <div>
       <h2 className="text-center">July Pomodoro Data</h2>
-      <div style={{ position: 'relative' }}>
-        <Bar data={data} width={100} height={350} options={{ maintainAspectRatio: false }} />
+      <div className="text-center">
+        <div className="relative">
+          <Bar data={data} width={100} height={350} options={{ maintainAspectRatio: false }} />
+        </div>
       </div>
     </div>
   )

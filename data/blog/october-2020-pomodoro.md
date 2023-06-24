@@ -13,7 +13,7 @@ Last month I did zero Pomodoros.
 
 # <center>Self-reflection</center>
 
-I found this very interesting. I experienced this exact same trend I recorded [here](https://kiendang.me/066-2019-yearend-pomodoro/) early in 2019.
+I found this very interesting. I experienced this exact same trend I recorded early in 2019.
 
 In January of 2019, I still had my full time job and was learning programming at a ridiculous pace (same as when I was unemployed, studying full-time). I hit 78 Pomodoro's from the help of the New Years resolution adrenaline and completely tapered off into March and burned out.
 

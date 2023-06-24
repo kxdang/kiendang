@@ -3,7 +3,7 @@ author: Kien
 date: 2019-08-01
 slug: July-pomodoro-reflection
 title: 🍅July Pomodoro Reflection
-description: A monthly progress for July. My current status and reflection on my productivity, goals and achievements.
+summary: A monthly progress for July. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']
 ---
 
@@ -30,4 +30,4 @@ I’m actually quite surprised. In June, I had 90 pomodoros all focused on many 
 
 The medications were researched at a later date as I am syncing my journey and timeline together for this month. [Cephalexin](/blog/cephalexin/) and [Clindamycin](/blog/clindamycin/) was taken in July.
 
-<div align="right"><a href="/054-august-2019-pomodoro/">August 2019 Pomodoro &rarr;</a></div>
+<div align="right"><a href="/blog/august-2019-pomodoro/">August 2019 Pomodoro &rarr;</a></div>

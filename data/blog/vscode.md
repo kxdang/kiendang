@@ -3,7 +3,7 @@ author: Kien
 date: 2020-08-18
 slug: vscode-productivity-tips
 title: 💻VSCode Productivity Tips
-description: I took a workshop called Visual Studio Code Can Do That? by Burke Holland from Frontend Masters and learned a few tips and tricks to make myself more productive with VSCode!
+summary: I took a workshop called Visual Studio Code Can Do That? by Burke Holland from Frontend Masters and learned a few tips and tricks to make myself more productive with VSCode!
 tags: ['productivity']
 ---
 

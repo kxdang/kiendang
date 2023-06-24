@@ -3,7 +3,7 @@ author: Kien
 date: 2019-11-15
 slug: opioids
 title: 🌺Opioids
-description: My personal experience with opioids inspired me to write a bite-sized explanation on how they work. None of this was recreational.
+summary: My personal experience with opioids inspired me to write a bite-sized explanation on how they work. None of this was recreational.
 tags: ['life', 'biochemistry']
 ---
 
@@ -55,7 +55,7 @@ Summer was a bad time, I was on IV opioids around the clock and receiving IV ant
 
 ### <center>💊Tramadol </center>
 
-A few weeks after my hospitalization, I came in for another surgery which led me to my second experience with [propofol](/060-propofol/). I was prescribed tramadol, another opioid that selectively binds to a different opiate receptor in the central nervous system.
+A few weeks after my hospitalization, I came in for another surgery which led me to my second experience with [propofol](/blog/propofol/). I was prescribed tramadol, another opioid that selectively binds to a different opiate receptor in the central nervous system.
 
 It does not bind as strongly to the mu-receptor compared to morphine, therefore, is much less potent and comes with a relatively low risk of addiction or withdrawal<sup><a href="https://www.ncbi.nlm.nih.gov/books/NBK537060/" target="_blank">[8]</a></sup>.
 

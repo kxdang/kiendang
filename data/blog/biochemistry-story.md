@@ -36,7 +36,7 @@ I couldn’t figure out how to stay afloat even when I had tried really hard. Wi
 
 My girlfriend told me something that would completely change the way I approached my academics. She told me that **I needed to learn effectively**. I realized my way of learning back in highschool needed to change.
 
-I started to find techniques on how to learn and eventually found the [Pomodoro Technique](/022-pomodoro-technique/) which helped me tremendously in organizing my time. I started to focus on finding ways to understand hard concepts and materials which allowed me to grind through the 2B term and make it on to 3A.
+I started to find techniques on how to learn and eventually found the [Pomodoro Technique](/blog/pomodoro-technique/) which helped me tremendously in organizing my time. I started to focus on finding ways to understand hard concepts and materials which allowed me to grind through the 2B term and make it on to 3A.
 
 With that momentum and a small glimpse of hope, I was able to finish all the required courses, including all the courses I failed.
 

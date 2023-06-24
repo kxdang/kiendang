@@ -3,7 +3,7 @@ author: Kien
 date: 2019-10-18
 slug: septra
 title: 💊Sulfamethoxazole and trimethoprim (Septra)
-description: My personal experience with this antibiotic inspired me to write a bite-sized explanation on how Septra works.
+summary: My personal experience with this antibiotic inspired me to write a bite-sized explanation on how Septra works.
 tags: ['life', 'biochemistry']
 ---
 

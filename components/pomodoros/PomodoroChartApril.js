@@ -29,63 +29,13 @@ const data = {
   ],
 }
 
-// const options = {
-//     maintainAspectRatio: false,
-//     tooltips: {
-//         mode: 'label'
-//     },
-//     elements: {
-//         line: {
-//             fill: false
-//         }
-//     },
-//     scales: {
-//         xAxes: [
-//             {
-//                 display: true,
-//                 gridLines: {
-//                     display: false
-//                 },
-//                 labels: {
-//                     show: true
-//                 },
-//                 labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-//             }
-//         ],
-//         yAxes: [
-//             {
-//                 type: 'linear',
-//                 display: true,
-//                 position: 'left',
-//                 id: 'y-axis-1',
-//                 gridLines: {
-//                     display: false
-//                 },
-//                 labels: {
-//                     show: true
-//                 }
-//             },
-//             {
-//                 type: 'linear',
-//                 display: true,
-//                 position: 'right',
-//                 id: 'y-axis-2',
-//                 gridLines: {
-//                     display: false
-//                 },
-//                 labels: {
-//                     show: true
-//                 }
-//             }
-//         ]
-//     }
-// };
-
 export default function BarChart() {
   return (
     <div>
-      <h2 style={{ textAlign: 'center' }}>April Pomodoro Data</h2>
-      <Bar data={data} width={100} height={200} options={{ maintainAspectRatio: false }} />
+      <h2 className="text-center">April Pomodoro Data</h2>
+      <div className="relative">
+        <Bar data={data} width={100} height={350} options={{ maintainAspectRatio: false }} />
+      </div>
     </div>
   )
 }

@@ -3,12 +3,12 @@ author: Kien
 date: 2020-03-01
 slug: february-2020-pomodoro
 title: 🍅February Pomodoro Reflection
-description: A monthly progress for February. My current status and reflection on my productivity, goals and achievements.
+summary: A monthly progress for February. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']
 ---
 
 ![](https://images.unsplash.com/photo-1523990138138-a73ebf1a425a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
-I've completed 103 [Pomodoro's](/022-pomodoro-technique/) (2575 minutes) in February. This is a decrease of 21 Pomodoro's compared to [last month](/067-january-2020-pomodoro/), a difference of 525 minutes.
+I've completed 103 [Pomodoro's](/blog/pomodoro-technique/) (2575 minutes) in February. This is a decrease of 21 Pomodoro's compared to [last month](/blog/january-2020-pomodoro/), a difference of 525 minutes.
 
 Having reflections allow me to measure how much I've done and what I've accomplished to achieve my goals. It helps me stay accountable in my journey in completing The Modern React Bootcamp (Hooks, Context, NextJS, Router) from Colt Steele on Udemy.
 
@@ -28,4 +28,4 @@ However, I’m more surprised I reached another 100 Pomodoro’s this month as i
 - Completed the Advanced CSS and SASS course from Udemy (Nature site, Trillo app, Realtor site) found in my portfolio. I’m excited to use flexbox and CSS grid in my future projects.
 - Created a [Now page](/now/) - a useful reminder of what I am currently doing. This will help me see if my monthly Pomodoro’s align with my priorities and goals, this page is inspired by David Sivers.
 
-<div align="right"><a href="/074-march-2020-pomodoro/">March 2020 Pomodoro &rarr;</a></div>
+<div align="right"><a href="/blog/march-2020-pomodoro/">March 2020 Pomodoro &rarr;</a></div>

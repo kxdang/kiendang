@@ -3,7 +3,7 @@ author: Kien
 date: 2019-12-01
 slug: november-2019-pomodoro-reflection
 title: 🍅November Pomodoro Reflection
-description: A monthly progress for November. My current status and reflection on my productivity, goals and achievements.
+summary: A monthly progress for November. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']
 ---
 
@@ -53,5 +53,3 @@ Continuation of courses include a MERN course I recently purchased. This will al
 - JavaScript in-depth (on-going)
 
 The tools I'm using are Anki and Notion to help me learn new material and have space reptition recall so that I don't forget important concepts. I also need to rebuild my portfolio.
-
-<div align="right"><a href="/066-december-2019-yearend-pomodoro/">December 2019 Pomodoro - Year End Summary &rarr;</a></div>

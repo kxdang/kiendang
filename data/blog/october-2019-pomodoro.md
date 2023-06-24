@@ -3,7 +3,7 @@ author: Kien
 date: 2019-11-01
 slug: october-2019-pomodoro-reflection
 title: 🍅October Pomodoro Reflection
-description: A monthly progress for October. My current status and reflection on my productivity, goals and achievements.
+summary: A monthly progress for October. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']
 ---
 

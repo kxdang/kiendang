@@ -3,7 +3,7 @@ author: Kien
 date: 2020-02-01
 slug: january-2020-pomodoro
 title: 🍅January Pomodoro Reflection
-description: A monthly progress for January. My current status and reflection on my productivity, goals and achievements.
+summary: A monthly progress for January. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']
 ---
 
@@ -66,4 +66,4 @@ I've been doing Pomodoro's as I feel like it. I do 25 minute and then take a bre
 
 I found that doing Pomodoro's early in the morning is my optimal time to do work, but I'm either dead tired when I wake up or too cold to get up. I need to work on this somehow and it definitely starts with sleep.
 
-<div align="right"><a href="/069-february-2020-pomodoro/">February 2020 Pomodoro &rarr;</a></div>
+<div align="right"><a href="/blog/february-2020-pomodoro/">February 2020 Pomodoro &rarr;</a></div>
