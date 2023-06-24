@@ -17,7 +17,7 @@ const discussUrl = (slug) =>
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
-  const { slug, fileName, date, title, images, tags } = frontMatter
+  const { slug, fileName, date, title, tags, readingTime } = frontMatter
 
   return (
     <SectionContainer>
@@ -37,7 +37,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                     <time dateTime={date}>
                       {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
-                    </time>
+                    </time>{' '}
+                    • {readingTime.text}
                   </dd>
                 </div>
               </dl>
@@ -92,7 +93,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   {'Discuss on Twitter'}
                 </Link>
                 {` • `}
-                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
+                <Link href={editUrl(fileName)}>{'Fix a typo on GitHub'}</Link>
               </div>
               <Comments frontMatter={frontMatter} />
             </div>
