@@ -12,7 +12,7 @@ const Giscus = () => {
         ? siteMetadata.comment.giscusConfig.darkTheme
         : siteMetadata.comment.giscusConfig.theme
       : siteMetadata.comment.giscusConfig.themeURL
-
+  console.log(commentsTheme)
   const COMMENTS_ID = 'comments-container'
 
   const LoadComments = useCallback(() => {
@@ -54,12 +54,12 @@ const Giscus = () => {
     }
   }, [commentsTheme])
 
-  // Reload on theme change
-  useEffect(() => {
-    const iframe = document.querySelector('iframe.giscus-frame')
-    if (!iframe) return
-    LoadComments()
-  }, [LoadComments])
+  // // Reload on theme change
+  // useEffect(() => {
+  //   const iframe = document.querySelector('iframe.giscus-frame')
+  //   if (!iframe) return
+  //   LoadComments()
+  // }, [LoadComments])
 
   useEffect(() => {
     LoadComments()
