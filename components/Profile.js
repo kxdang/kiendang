@@ -76,14 +76,14 @@ export default function Profile() {
         <div className="flex justify-center pb-2">
           <Image
             alt="lies lock lamaora"
-            height="150px"
+            height="140px"
             width="90px"
             src="/static/images/books/scott.jpg"
           />
           <span className="mr-3"></span>
           <Image
             alt="dune 2 messiah"
-            height="150px"
+            height="140px"
             width="90px"
             src="/static/images/books/dune2.jpg"
           />
