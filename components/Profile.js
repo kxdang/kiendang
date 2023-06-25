@@ -3,7 +3,22 @@ import Image from '@/components/Image'
 import Link from '@/components/Link'
 import { HiLocationMarker } from 'react-icons/hi'
 import SocialIcon from '@/components/social-icons'
+import { HiOutlineSpeakerWave } from 'react-icons/hi2'
 
+import useSound from 'use-sound'
+
+const Pronunciation = () => {
+  const [play] = useSound('/static/sound/kien.mp3')
+  return (
+    <button
+      className="ml-1 flex items-center font-bold text-sky-500 dark:text-yellow-500"
+      onClick={play}
+      alt="pronounciation"
+    >
+      Kien <HiOutlineSpeakerWave className="ml-1" />
+    </button>
+  )
+}
 export default function Profile() {
   return (
     <div>
@@ -13,15 +28,16 @@ export default function Profile() {
           <h2 className=" pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             👋 Hello
           </h2>
-          <h2 className="sm:text-md  pb-1 text-gray-500 dark:text-gray-400">
-            Welcome to my blog, my name is Kien.
+          <h2 className="sm:text-md  flex pb-1 text-gray-500 dark:text-gray-400">
+            Welcome to my blog, my name is{' '}
+            <span>
+              <Pronunciation />
+            </span>
           </h2>
           <p className="sm:text-md  text-gray-500 dark:text-gray-400">
             I am a lifelong learner with a passion for solving problems via code.
           </p>
-          <p className="pt-4 text-gray-500 dark:text-gray-400 md:text-sm">
-            Technology stack I use:
-          </p>
+          <p className="pt-4 text-gray-500 dark:text-gray-400 md:text-sm">Developer stack</p>
           <span className="mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">
             JavaScript
           </span>
