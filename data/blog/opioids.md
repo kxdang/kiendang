@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2019-11-15
-slug: opioids
 title: 🌺Opioids
 summary: My personal experience with opioids inspired me to write a bite-sized explanation on how they work. None of this was recreational.
 tags: ['life', 'biochemistry']

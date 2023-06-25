@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-12-31
-slug: year-end-2020
 title: 🎊A year end summary of 2020
 summary: A year that kept on taking.
 tags: ['life']

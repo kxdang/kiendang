@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2019-04-19 20:05:34+00:00
-slug: new-chapter
 title: Time for change
 tags: ['life']
 ---

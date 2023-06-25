@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2019-01-20 23:05:12+00:00
-slug: excel-automating-tips-and-tricks
 title: 'Excel: VBA Tips and Tricks'
 tags: ['productivity']
 ---

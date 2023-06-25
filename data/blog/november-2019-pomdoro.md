@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2019-12-01
-slug: november-2019-pomodoro-reflection
 title: 🍅November Pomodoro Reflection
 summary: A monthly progress for November. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']

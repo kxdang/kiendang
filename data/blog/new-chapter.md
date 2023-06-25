@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-06-13
-slug: 2020-new-chapter
 title: 🍾A New Chapter in 2020
 summary: 🎉🙌 I'm employed as a Software Developer at Coveo💙🧡!
 tags: ['life']

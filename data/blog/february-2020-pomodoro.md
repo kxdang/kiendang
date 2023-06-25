@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-03-01
-slug: february-2020-pomodoro
 title: 🍅February Pomodoro Reflection
 summary: A monthly progress for February. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']

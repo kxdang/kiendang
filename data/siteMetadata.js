@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: 'https://kiendang.me',
   siteRepo: 'https://github.com/kxdang/kiendang',
   // siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@kien.dev',
   github: 'https://github.com/kxdang',

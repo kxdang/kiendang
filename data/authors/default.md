@@ -1,6 +1,6 @@
 ---
 name: Kien Dang
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar.jpg
 occupation: Software Developer
 company: Bachelor of Science in Biochemistry
 email: hello@kien.dev

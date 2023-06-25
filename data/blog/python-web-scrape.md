@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-11-25
-slug: python-webscrape
 title: 🤖 How to web scrape with Python for deals
 summary: How to web scrape with Python in 2020. A beginners guide on how to check any site for changes and generate an email notification when it changes. Just in time for Black Friday and Cyber Monday!
 tags: ['python']

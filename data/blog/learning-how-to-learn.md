@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-03-11
-slug: learning-to-learn
 title: 📝Learning How to Learn
 summary: A Mind for Numbers, a book about learning how to learn and improving your ability to retain new concepts in any subject.
 tags: ['books']

@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-05-25
-slug: notcodenames
 title: 🎲 The Creation of Not Codenames
 summary: An online multiplayer board game similar to codenames!
 tags: ['webdev', 'react']

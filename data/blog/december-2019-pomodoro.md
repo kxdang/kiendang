@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-01-01
-slug: december-2019-pomodoro
 title: 🍅December Pomodoro Reflection 2019
 summary: A monthly progress for December. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']

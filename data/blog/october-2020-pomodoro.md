@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-11-14
-slug: oct-2020-pomodoro
 title: 🍅October Pomodoro Reflection
 summary: A monthly progress for October. My current status and reflection on my productivity, goals and achievements.
 tags: ['pomodoro']

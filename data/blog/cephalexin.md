@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2019-10-20
-slug: cephalexin
 title: 💊Cephalexin
 summary: My personal experience with this antibiotic inspired me to write a bite-sized explanation on how cephalexin works.
 tags: ['life', 'biochemistry']

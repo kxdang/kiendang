@@ -1,7 +1,6 @@
 ---
 author: Kien
 date: 2020-05-30
-slug: mind-over-matter
 title: 🧠Mind Over Matter
 summary: The story of how I fixed my sleeping problems and the steps I took to optimize for study, leisure, and sleep in my small bedroom. The things that worked for me throughout my journey in programming.
 tags: ['life']

@@ -53,7 +53,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             </div>
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
-          <div className="pb-10 text-gray-700 dark:text-gray-400 xl:col-span-2 xl:col-start-2">
+          <div className="pb-10 text-gray-700 dark:text-gray-300 xl:col-span-2 xl:col-start-2">
             If you're interested in my journey into becoming a developer, click more
             <div className="flex justify-center">
               <button
