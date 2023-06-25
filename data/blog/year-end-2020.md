@@ -22,8 +22,6 @@ What was interesting was that stock markets bounced back and soared despite unem
 
 In addition, this was the first time in my life that I have ever seen a grocery stores completely out of stock on perishable items and most importantly, toilet paper.
 
-<iframe src="https://giphy.com/embed/g9SURfIJouBck" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-last-meme-of-2015-g9SURfIJouBck">via GIPHY</a></p>
-
 Online shopping became bigger than ever with Amazon constantly being able to send parcels during the pandemic without delay. I am completely blown away how robust parcel delivery and how far logistics technology has come.
 
 # <center>Positives</center>

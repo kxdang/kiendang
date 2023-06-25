@@ -7,7 +7,8 @@ import SocialIcon from '@/components/social-icons'
 export default function Profile() {
   return (
     <div>
-      <div className="flex flex-col-reverse py-20 md:flex-row">
+      <h1 className="text-center text-3xl font-bold sm:hidden">Kien Dang</h1>
+      <div className="flex flex-col-reverse pt-8 pb-2 md:flex-row">
         <div className="mr-auto">
           <h2 className=" pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             👋 Hello
@@ -18,7 +19,9 @@ export default function Profile() {
           <p className="sm:text-md  text-gray-500 dark:text-gray-400">
             I am a lifelong learner with a passion for solving problems via code.
           </p>
-          <p className="pt-4 text-gray-500 dark:text-gray-400 md:text-sm">Tech Stack</p>
+          <p className="pt-4 text-gray-500 dark:text-gray-400 md:text-sm">
+            Technology stack I use:
+          </p>
           <span className="mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">
             JavaScript
           </span>
@@ -46,7 +49,7 @@ export default function Profile() {
           <div className="flex flex-col justify-center text-gray-500  dark:text-gray-400">
             <div className="flex items-center justify-center ">
               <HiLocationMarker className="h-18 w-18" />{' '}
-              <span className="pl-1">Toronto, Canada 🍁 </span>
+              <span className="pl-1 pt-2">Toronto, Canada 🍁 </span>
             </div>
             <div className="flex justify-center space-x-1 pt-2 ">
               <SocialIcon kind="mail" href={`mailto:hello@kien.dev`} size="6" />
@@ -71,17 +74,21 @@ export default function Profile() {
           </div>
         </div>
         <div className="flex justify-center pb-2">
-          <img
-            width="80px"
-            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1458646334i/29588376.jpg"
+          <Image
+            alt="lies lock lamaora"
+            height="150px"
+            width="90px"
+            src="/static/images/books/scott.jpg"
           />
-          <img
-            className="pl-2"
-            width="80px"
-            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1577043824i/44492285.jpg"
+          <span className="mr-3"></span>
+          <Image
+            alt="dune 2 messiah"
+            height="150px"
+            width="90px"
+            src="/static/images/books/dune2.jpg"
           />
         </div>
-        <p className="text-center">
+        <p className="text-center text-gray-500 dark:text-gray-400">
           The Lies of Locke Lamora - Scott Lynch <br /> Dune Messiah - Frank Herbert
         </p>
       </div>
