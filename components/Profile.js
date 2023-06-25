@@ -47,9 +47,9 @@ export default function Profile() {
             className="h-48 w-48 rounded-full"
           />
           <div className="flex flex-col justify-center text-gray-500  dark:text-gray-400">
-            <div className="flex items-center justify-center ">
+            <div className="flex items-center justify-center pt-2">
               <HiLocationMarker className="h-18 w-18" />{' '}
-              <span className="pl-1 pt-2">Toronto, Canada 🍁 </span>
+              <span className="pl-1">Toronto, Canada 🍁 </span>
             </div>
             <div className="flex justify-center space-x-1 pt-2 ">
               <SocialIcon kind="mail" href={`mailto:hello@kien.dev`} size="6" />
