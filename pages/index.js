@@ -23,7 +23,7 @@ export default function Home({ posts }) {
             Latest
           </h1>
           <p className="flex text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description} <p className="ml-2 text-[8px]">lol</p>
+            {siteMetadata.description} <span className="ml-2 text-[8px]">lol</span>
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
