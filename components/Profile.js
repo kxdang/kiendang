@@ -16,16 +16,13 @@ export default function Profile() {
             👋 Hello
           </h2>
           <h2 className="sm:text-md flex pb-1 text-gray-500 dark:text-gray-400">
-            Welcome to my blog, my name is{' '}
-            <span>
-              <KienPronunciation />
-            </span>
+            Welcome to my blog, my name is <KienPronunciation />
           </h2>
           <p className="sm:text-md text-gray-500 dark:text-gray-400">
             I am a lifelong learner with a passion for solving problems via code.
           </p>
           <p className="sm:text-md mb-2 pt-4 text-gray-500 dark:text-gray-400">Developer stack</p>
-          <div className="pb-6">
+          <div className="flex flex-wrap gap-y-2 pb-6">
             <span className="mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-sm font-medium text-yellow-800 dark:bg-yellow-900 dark:text-yellow-300">
               JavaScript
             </span>
@@ -66,7 +63,8 @@ export default function Profile() {
       </div>
       <div>
         <div className="flex justify-between pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
-          <h1>Currently Reading</h1>
+          <h1 className="hidden xs:block">Currently Reading</h1>
+          <h1 className="block xs:hidden">Reading</h1>
           <hr className="mx-3 mt-6 flex-grow border-gray-300 pb-2 dark:border-gray-700 sm:mt-6 md:mt-8" />
 
           <div className="flex items-end pb-1 text-sm text-gray-500 dark:text-gray-400 sm:pb-1 md:pb-4">
