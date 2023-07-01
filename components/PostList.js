@@ -2,6 +2,7 @@ import React from 'react'
 import Tag from '@/components/Tag'
 import formatDate from '@/lib/utils/formatDate'
 import Link from '@/components/Link'
+
 export default function PostList({ posts }) {
   const MAX_DISPLAY = 5
   return (
@@ -16,8 +17,12 @@ export default function PostList({ posts }) {
                 <dl>
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                    <time dateTime={date}>{formatDate(date)}</time>
-                    <p>{readingTime.text}</p>
+                    <div className="flex">
+                      <time className="pr-2" dateTime={date}>
+                        {formatDate(date)}
+                      </time>{' '}
+                      • <p className="pl-1">{readingTime.text}</p>
+                    </div>
                   </dd>
                 </dl>
 
