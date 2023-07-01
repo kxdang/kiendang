@@ -17,11 +17,17 @@ export default function PostList({ posts }) {
                 <dl>
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                    <div className="flex">
+                    <div className="flex xl:hidden">
                       <time className="pr-2" dateTime={date}>
                         {formatDate(date)}
                       </time>{' '}
                       • <p className="pl-1">{readingTime.text}</p>
+                    </div>
+                    <div className="hidden xl:flex">
+                      <div className="flex flex-col">
+                        <time dateTime={date}>{formatDate(date)}</time>
+                        <p>{readingTime.text}</p>
+                      </div>
                     </div>
                   </dd>
                 </dl>
