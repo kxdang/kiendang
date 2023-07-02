@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2019-06-07 02:30:51+00:00
+date: 2019-06-07
 title: 'Mastering concentration: Pomodoro Reflection'
 tags: ['productivity']
 ---

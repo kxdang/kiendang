@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2019-01-03 14:59:53+00:00
+date: 2019-01-03
 title: 👨‍🔬My Biochemistry Story
 tags: ['life']
 ---

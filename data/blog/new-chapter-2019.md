@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2019-04-19 20:05:34+00:00
+date: 2019-04-19
 title: Time for change
 tags: ['life']
 ---

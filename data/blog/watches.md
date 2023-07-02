@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2018-12-28 02:14:54+00:00
+date: 2018-12-28
 title: ⌚Watches
 tags: ['life']
 ---

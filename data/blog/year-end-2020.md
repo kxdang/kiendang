@@ -58,7 +58,7 @@ It has been a wild ride to see my year pan out with productivity reports and I a
 
 I look forward to learning without the pressure of having to generate my numbers at the end of every month.
 
-I will definitely continue to improve my skills amd change the approach on how to be productive for 2021.
+I will definitely continue to improve my skills and change the approach on how to be productive for 2021.
 
 ## <center>My 2020 accomplishments:</center>
 

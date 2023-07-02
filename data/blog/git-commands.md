@@ -8,25 +8,7 @@ tags: ['productivity']
 
 There are a ton of commands and many things you can do with Git. Here are the ones I commonly use for my workflow. These include fixing commit messages, debugging with Git and finding shortcuts to improve my workflow.
 
-[1. Changing commit messages](#1-changing-commit-messages)
-
-[2. Uncommit and remove some files that was accidentally pushed](#2-uncommit-and-remove-some-files-that-was-accidentally-pushed)
-
-[3. Quickly bounce back to a previous branch](#3-quickly-bounce-back-to-a-previous-branch)
-
-[4. Rebasing your branch to remote origin or on another branch](#4-rebasing-your-branch-to-remote-origin-or-on-another-branch)
-
-[5. Resetting your changes to remote branch](#5-resetting-your-changes-to-remote-branch)
-
-[6. Git stash saving with name](#6-git-stash-saving-with-name)
-
-[7. Taking all of main branches changes](#7-taking-all-of-main-branches-changes)
-
-[8. Renaming your branch after its been pushed](#8-renaming-your-branch-after-its-been-pushed)
-
-[9. Using Git to debug using Git bisect](9-using-git-to-debug-using-git-bisect)
-
-[10. Git worktree to jump between branch builds](#10-git-worktree-to-jump-between-branch-builds)
+<TOCInline toc={props.toc} asDisclosure />
 
 ## 1. Changing commit messages
 

@@ -1,6 +1,6 @@
 ---
 author: Kien
-date: 2019-01-20 23:05:12+00:00
+date: 2019-01-20
 title: 'Excel: VBA Tips and Tricks'
 tags: ['productivity']
 ---
