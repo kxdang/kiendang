@@ -22,6 +22,11 @@ At work, we use Apollo where they have a very similar hook called useQuery, ther
 
 As for the TypeScript course on Educative, I have not been keeping up with this. I found that most of my time has been dedicated to ramping up at my new position. I’m going to try to pace myself and take my time.
 
-For the books I've read so far:
+For the books I've read so far 📖
 
-- The Way of Kings - Brandon Sanderson
+- The Way of Kings
+- Words of Radiance
+- Edgedancer
+- Oathbringer
+
+All by Brandon Sanderson. The Stormlight Archive is such a great series, I ended up hooked after the first book and completed my 2023 reading challenge pretty quickly. I took a break from this series as I know he's still writing it so I picked up another trilogy to read.
