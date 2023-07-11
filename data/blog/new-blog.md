@@ -8,7 +8,7 @@ tags: ['life']
 
 My first post of 2023! I haven’t been writing much but a lot has changed since the end of 2022.
 
-I recently underwent a major change in my career path by successfully landing a new role at another company! I feel incredibly fortunate to have been given the opportunity to join the web platform team at theScore. Their technology stack aligns closely to my previous employer and I’m excited to be more proficient with GraphQL and Apollo.
+I recently underwent a major change in my career path by successfully landing a new role at another company! I feel incredibly fortunate to have been given the opportunity to join the web platform team at theScore. Their technology stack aligns closely to my current skillset and interests and I’m excited to become more proficient with GraphQL and Apollo.
 
 I switched over my blog from Gatsbyjs to Nextjs styled with Tailwind. I merged both my portfolio website and blog into one and I’m no longer hosting on Netlify as I switched to Vercel.
 
