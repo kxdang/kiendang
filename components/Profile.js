@@ -1,31 +1,35 @@
 import React from 'react'
 import Image from '@/components/Image'
 import Link from '@/components/Link'
+import LoadingSkeletonBooks from '@/components/LoadingSkeletonBooks'
 import { HiLocationMarker } from 'react-icons/hi'
 import SocialIcon from '@/components/social-icons'
 import { useEffect, useState } from 'react'
+import { useQuery } from 'react-query'
 
 import { KienPronunciation } from './KienPronunciation'
 
+const fetchBookData = async () => {
+  const response = await fetch('/api/goodReads')
+  const data = await response.json()
+  return data
+}
+
 export default function Profile() {
-  const [numOfReadBooks, setNumOfReadBooks] = useState('-')
-  const [currentlyReading, setCurrentlyReading] = useState(undefined)
+  const [bookData, setBookData] = useState(undefined)
+
+  const { data, error, isLoading } = useQuery('bookData', fetchBookData)
 
   useEffect(() => {
-    fetchReadCount()
-  }, [])
-
-  const fetchReadCount = async () => {
-    try {
-      const response = await fetch('/api/goodReads')
-      const data = await response.json()
-
-      setCurrentlyReading(data.booksCurrentlyReading)
-      setNumOfReadBooks(data.number.match(/\((\d+)\)/)[1])
-    } catch (error) {
-      console.error('Error fetching data:', error)
+    if (data) {
+      const { numOfReadBooks, currentlyReading } = data
+      const numOfReadBooksExtracted = numOfReadBooks.match(/\((\d+)\)/)[1]
+      setBookData({
+        numOfReadBooks: numOfReadBooksExtracted,
+        currentlyReading,
+      })
     }
-  }
+  }, [data])
 
   const BookTitleAndAuthor = ({ title, author }) => (
     <p className="text-center text-gray-500 dark:text-gray-400">
@@ -33,6 +37,7 @@ export default function Profile() {
     </p>
   )
 
+  const isFetching = isLoading || !bookData
   return (
     <div>
       <h1 className="text-center text-3xl font-bold sm:hidden">Kien Dang</h1>
@@ -77,7 +82,7 @@ export default function Profile() {
           <div className="flex flex-col justify-center text-gray-500  dark:text-gray-400">
             <div className="flex items-center justify-center pt-3">
               <HiLocationMarker className="h-18 w-18" />{' '}
-              <span className="pl-1">Toronto, Canada 🍁 </span>
+              <span className="pl-1">Toronto, Canada 🇨🇦 </span>
             </div>
             <div className="flex justify-center space-x-3 pt-4">
               <SocialIcon kind="mail" href={`mailto:hello@kien.dev`} size="6" />
@@ -98,7 +103,9 @@ export default function Profile() {
               href="https://www.goodreads.com/review/list/63733680-kien-dang?shelf=read"
               target="_blank"
             >
-              <p className="hover:underline">Read ({numOfReadBooks} books)</p>
+              <p className="hover:underline">
+                {isFetching ? ' Read ( - books)' : `Read (${bookData.numOfReadBooks} books)`}
+              </p>
             </Link>
           </div>
         </div>
@@ -117,10 +124,15 @@ export default function Profile() {
           />
         </div>
 
-        {currentlyReading &&
-          currentlyReading.map((book, idx) => (
-            <BookTitleAndAuthor key={idx} title={book.title} author={book.author} />
-          ))}
+        {isFetching ? (
+          <LoadingSkeletonBooks />
+        ) : (
+          <div className="mx-auto w-full p-4">
+            {bookData.currentlyReading.map((book, idx) => (
+              <BookTitleAndAuthor key={idx} title={book.title} author={book.author} />
+            ))}{' '}
+          </div>
+        )}
       </div>
     </div>
   )
