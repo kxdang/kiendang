@@ -3,10 +3,36 @@ import Image from '@/components/Image'
 import Link from '@/components/Link'
 import { HiLocationMarker } from 'react-icons/hi'
 import SocialIcon from '@/components/social-icons'
+import { useEffect, useState } from 'react'
 
 import { KienPronunciation } from './KienPronunciation'
 
 export default function Profile() {
+  const [numOfReadBooks, setNumOfReadBooks] = useState('-')
+  const [currentlyReading, setCurrentlyReading] = useState(undefined)
+
+  useEffect(() => {
+    fetchReadCount()
+  }, [])
+
+  const fetchReadCount = async () => {
+    try {
+      const response = await fetch('/api/goodReads')
+      const data = await response.json()
+
+      setCurrentlyReading(data.booksCurrentlyReading)
+      setNumOfReadBooks(data.number.match(/\((\d+)\)/)[1])
+    } catch (error) {
+      console.error('Error fetching data:', error)
+    }
+  }
+
+  const BookTitleAndAuthor = ({ title, author }) => (
+    <p className="text-center text-gray-500 dark:text-gray-400">
+      {title} - {author}
+    </p>
+  )
+
   return (
     <div>
       <h1 className="text-center text-3xl font-bold sm:hidden">Kien Dang</h1>
@@ -72,28 +98,29 @@ export default function Profile() {
               href="https://www.goodreads.com/review/list/63733680-kien-dang?shelf=read"
               target="_blank"
             >
-              <p className="hover:underline">Read (62 books)</p>
+              <p className="hover:underline">Read ({numOfReadBooks} books)</p>
             </Link>
           </div>
         </div>
-        <div className="flex justify-center pb-2">
+        <div className="flex justify-center gap-2 pb-2">
+          <Image
+            alt="red rising book 6 light bringer"
+            height="140px"
+            width="90px"
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667593334i/61755286.jpg"
+          />
           <Image
             alt="lies lock lamaora"
             height="140px"
             width="90px"
-            src="/static/images/books/scott.jpg"
-          />
-          <span className="mr-3"></span>
-          <Image
-            alt="dune 2 messiah"
-            height="140px"
-            width="90px"
-            src="/static/images/books/dune2.jpg"
+            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1458646334i/29588376.jpg"
           />
         </div>
-        <p className="text-center text-gray-500 dark:text-gray-400">
-          The Lies of Locke Lamora - Scott Lynch <br /> Dune Messiah - Frank Herbert
-        </p>
+
+        {currentlyReading &&
+          currentlyReading.map((book, idx) => (
+            <BookTitleAndAuthor key={idx} title={book.title} author={book.author} />
+          ))}
       </div>
     </div>
   )
