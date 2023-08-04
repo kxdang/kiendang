@@ -4,6 +4,7 @@ import Profile from '@/components/Profile'
 import PostCard from '@/components/PostCard'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
+import { QueryClient, QueryClientProvider } from 'react-query'
 
 const MAX_DISPLAY = 3
 
@@ -13,9 +14,11 @@ export async function getStaticProps() {
   return { props: { posts } }
 }
 
+const queryClient = new QueryClient()
+
 export default function Home({ posts }) {
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <Profile />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -42,6 +45,6 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
-    </>
+    </QueryClientProvider>
   )
 }
