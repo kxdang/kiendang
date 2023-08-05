@@ -1,4 +1,7 @@
-import PostList from '@/components/PostList'
+import formatDate from '@/lib/utils/formatDate'
+import Link from '@/components/Link'
+import Tag from '@/components/Tag'
+
 import { useState } from 'react'
 import Pagination from '@/components/Pagination'
 
@@ -44,28 +47,37 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             </svg>
           </div>
         </div>
-        <PostList posts={displayPosts} />
-        {/* <ul>
+        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter) => {
             const { slug, date, title, summary, tags, readingTime } = frontMatter
             return (
-              <li key={slug} className="py-4">
+              <li key={slug} className="py-12">
                 <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                   <dl>
                     <dt className="sr-only">Published on</dt>
                     <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                      <time dateTime={date}>{formatDate(date)}</time>
-                      <p>{readingTime.text}</p>
+                      <div className="flex xl:hidden">
+                        <time className="pr-2" dateTime={date}>
+                          {formatDate(date)}
+                        </time>{' '}
+                        • <p className="pl-1">{readingTime.text}</p>
+                      </div>
+                      <div className="hidden xl:flex">
+                        <div className="flex flex-col">
+                          <time dateTime={date}>{formatDate(date)}</time>
+                          <p>{readingTime.text}</p>
+                        </div>
+                      </div>
                     </dd>
                   </dl>
                   <div className="space-y-3 xl:col-span-3">
                     <div>
-                      <h3 className="text-2xl font-bold leading-8 tracking-tight">
+                      <h2 className="text-2xl font-bold leading-8 tracking-tight">
                         <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
                           {title}
                         </Link>
-                      </h3>
+                      </h2>
                       <div className="mt-2 flex flex-wrap">
                         {tags.map((tag) => (
                           <Tag key={tag} text={tag} />
@@ -80,7 +92,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
               </li>
             )
           })}
-        </ul> */}
+        </ul>
       </div>
       {pagination && pagination.totalPages > 1 && !searchValue && (
         <Pagination currentPage={pagination.currentPage} totalPages={pagination.totalPages} />

@@ -18,7 +18,7 @@ const fetchBookData = async () => {
 export default function Profile() {
   const [bookData, setBookData] = useState(undefined)
 
-  const { data, error, isLoading } = useQuery('bookData', fetchBookData)
+  const { data, isLoading } = useQuery('bookData', fetchBookData)
 
   useEffect(() => {
     if (data) {
@@ -31,10 +31,16 @@ export default function Profile() {
     }
   }, [data])
 
-  const BookTitleAndAuthor = ({ title, author }) => (
-    <p className="text-center text-gray-500 dark:text-gray-400">
-      {title} - {author}
-    </p>
+  const BookTitleAndAuthor = ({ title, author, url }) => (
+    <Link
+      className="text-center text-gray-500 hover:underline dark:text-gray-400"
+      href={`https://www.goodreads.com${url}`}
+      target="__blank"
+    >
+      <p>
+        {title} - {author}
+      </p>
+    </Link>
   )
 
   const isFetching = isLoading || !bookData
@@ -129,7 +135,12 @@ export default function Profile() {
         ) : (
           <div className="mx-auto w-full p-4">
             {bookData.currentlyReading.map((book, idx) => (
-              <BookTitleAndAuthor key={idx} title={book.title} author={book.author} />
+              <BookTitleAndAuthor
+                key={idx}
+                title={book.title}
+                author={book.author}
+                url={book.url}
+              />
             ))}{' '}
           </div>
         )}

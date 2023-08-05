@@ -13,6 +13,8 @@ export async function getStaticProps() {
     totalPages: Math.ceil(posts.length / POSTS_PER_PAGE),
   }
 
+  console.log('pagination', pagination)
+
   return { props: { initialDisplayPosts, posts, pagination } }
 }
 
