@@ -13,7 +13,7 @@ export default function PostCard({ posts }) {
         return (
           <div
             key={slug}
-            className="rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800"
+            className="rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800 first:sm:col-span-2 first:md:col-span-1"
           >
             <div className="flex h-full flex-col p-5">
               <div className="mb-auto">

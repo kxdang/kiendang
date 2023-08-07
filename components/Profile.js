@@ -120,13 +120,7 @@ export default function Profile() {
             alt="red rising book 6 light bringer"
             height="140px"
             width="90px"
-            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667593334i/61755286.jpg"
-          />
-          <Image
-            alt="lies lock lamaora"
-            height="140px"
-            width="90px"
-            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1458646334i/29588376.jpg"
+            src="https://covers.openlibrary.org/b/id/14392791-M.jpg"
           />
         </div>
 
