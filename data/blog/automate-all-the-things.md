@@ -45,13 +45,12 @@ Now I have the following automations setup below:
 
 1. **Fridge door alerts**
 
-- If the fridge or freezer door is left open for more than 45 seconds
-- notifications go off on my phone every 15 seconds alerting me that its opened until I close it
+- If the fridge or freezer door is left open for more than 45 seconds, notifications go off on my phone every 15 seconds alerting me that its opened until I close it
 - Google home speakers announce that its been left opened
 
 2. **Turning on the TV**
 
-- Automatically dims my living room lights when the TV is on
+- Automatically dims my living room lights
 - It turns on the TV backlights
 - When the TV is paused from watching something, the lights immediately turn to 100% brightness
 
@@ -62,7 +61,7 @@ Now I have the following automations setup below:
 
 4. **Door alerts from Google speakers**
 
-- It triggers only at night. It's my cheapo alarm system
+- It triggers only at night, it's my cheapo alarm system
 - Garage door notifications when its left open for more than 5 minutes, it automatically sends me a notification every minute to check and close the door
 
-Now this is all great, especially when you're home as Home Assistant runs locally, but if you need to be outside your network, you won't get any notifications. To solve this, I installed the Tailscale plugin on Home Assitant which creates a free VPN and I simply enable my Tailscale on my phone while I'm away and now I can receive notifications as if I was at home.
+Now this is all great, especially when you're home as Home Assistant runs locally, but if you need to be outside your network, you won't get any notifications. To solve this, I installed the Tailscale plugin on Home Assistant which creates a free VPN and I simply enable my Tailscale on my phone while I'm away and now I can receive notifications as if I was at home.
