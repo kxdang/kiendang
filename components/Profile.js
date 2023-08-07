@@ -125,7 +125,7 @@ export default function Profile() {
         </div>
 
         {isFetching ? (
-          <LoadingSkeletonBooks />
+          <LoadingSkeletonBooks row={1} />
         ) : (
           <div className="mx-auto w-full p-4">
             {bookData.currentlyReading.map((book, idx) => (
