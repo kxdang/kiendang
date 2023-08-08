@@ -16,7 +16,7 @@ About 400 dollars worth of meats and frozen goodies from Costco wasted and we we
 
 The fridge's compressor turned off to prevent overheating because the freezer was overfilled which left the door slightly opened.
 
-Needless to say, I immediately bought a fridge and freezer thermometer alarms and now have them in my fridge. They cost about $60 but at least its a piece of mind knowing that if the door was left open, the temperature will increase, it'll warn us.
+Needless to say, I immediately bought a fridge and freezer thermometer alarms and now have them in my fridge. They cost about $60 but at least its a piece of mind knowing that if the door was left open, the temperature will increase and it'll warn us.
 
 However, this solution isn't perfect.
 
@@ -37,7 +37,7 @@ This was by far the best quality of life improvement I've managed to do this yea
 - Aqara Presence Sensor FP2
 - Aqara contact sensors
 
-I bought a refurbished Dell OptiPlex SSF (Super Small Form Factor). It's much cheaper than a Raspberry Pi and also much more powerful while still maintaining a small foot print with a relatively low wattage so I can keep running it 24/7 as a small server. This runs my Home Assistant on a VM.
+I bought a refurbished Dell OptiPlex SSF (Super Small Form Factor). You get more value over a Raspberry Pi and its much more powerful while still maintaining a small foot print with a relatively low wattage so I can keep running it 24/7 as a small server. This runs my Home Assistant on a VM.
 
 I recommend buying the Aqara contact sensors off Aliexpress, since they are much cheaper than Amazon and shipping comes relatively fast, at least for me. The cheapest way to connect the sensors is with a Zigbee USB dongle, which you can use over their proprietary Aqara hub.
 
