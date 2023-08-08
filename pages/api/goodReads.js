@@ -19,8 +19,10 @@ export default async function handler(req, res) {
       const title = $element.find('td.field.title a').text().replace(/\n/g, '').trim()
       const author = $element.find('td.field.author a').text().trim()
       const url = $element.find('td.field.title a').attr('href')
+      const originalUrl = $element.find('td.field.cover img').attr('src')
+      const imageUrl = originalUrl.replace(/_SY\d+_/i, '_SY275_')
 
-      currentlyReading.push({ title, author, url })
+      currentlyReading.push({ title, author, url, imageUrl })
     })
 
     res.status(200).json({ numOfReadBooks: scrapedNumber, currentlyReading })

@@ -67,7 +67,7 @@ module.exports = withBundleAnalyzer({
     ]
   },
   images: {
-    domains: ['images-na.ssl-images-amazon.com', 'covers.openlibrary.org'],
+    domains: ['i.gr-assets.com', 'covers.openlibrary.org'],
   },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
