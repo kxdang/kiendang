@@ -125,7 +125,7 @@ export default function Profile() {
         </div>
         <div className="flex justify-center gap-2 pb-2">
           {isFetching ? (
-            <div className="flex h-[140px] w-[90px] animate-pulse items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
+            <div className="flex h-[147px] w-[90px] animate-pulse items-center justify-center rounded bg-gray-300 dark:bg-gray-700">
               <svg
                 className="h-10 w-10 text-gray-200 dark:text-gray-600"
                 aria-hidden="true"
@@ -137,7 +137,7 @@ export default function Profile() {
               </svg>
             </div>
           ) : (
-            <div>
+            <>
               {bookData.currentlyReading.map((book, idx) => (
                 <BookCover
                   key={idx}
@@ -147,7 +147,7 @@ export default function Profile() {
                   url={book.url}
                 />
               ))}
-            </div>
+            </>
           )}
         </div>
 
