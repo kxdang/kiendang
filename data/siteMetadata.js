@@ -13,8 +13,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@kien.dev',
   github: 'https://github.com/kxdang',
-  twitter: 'https://twitter.com/k1dang',
-  linkedin: 'https://linkedin.com/in/kien-dang',
+  linkedin: 'https://www.linkedin.com/in/kien-dang',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
