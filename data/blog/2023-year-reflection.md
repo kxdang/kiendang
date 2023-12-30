@@ -2,11 +2,11 @@
 author: Kien
 date: 2023-12-30
 title: 🎄2023 Year End Reflection
-summary: Writing about what I learned this year and what I am looking forward to next year.
+summary: Writing about what I achieved this year and what I am looking forward to next year.
 tags: ['life']
 ---
 
-2023 is fast approaching in two days and felt like the longest and shortest year at the same time which I have no idea how that's even possible. I want to make sure I’m able to reflect on the goals that I accomplished and review the current goals I had set up in the previous year. It helps me feel accountable and responsible for my actions and what I do with my time.
+2023 is wrapping up in two days and it felt like the longest and shortest year at the same time which I have no idea how that's even possible. I want to make sure I’m able to reflect on the goals that I accomplished and review the current goals I had set up in the previous year. It helps me feel accountable and responsible for my actions and what I do with my time.
 
 ### My 2023 highlights and goals accomplished this year
 
