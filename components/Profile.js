@@ -6,8 +6,10 @@ import { HiLocationMarker } from 'react-icons/hi'
 import SocialIcon from '@/components/social-icons'
 import { useEffect, useState } from 'react'
 import { useQuery } from 'react-query'
+import { FlagIcon } from 'react-flag-kit'
 
 import { KienPronunciation } from './KienPronunciation'
+import TextGradient from '@/components/TextGradient'
 
 const fetchBookData = async () => {
   const response = await fetch('/api/goodReads')
@@ -58,8 +60,9 @@ export default function Profile() {
       <div className="flex flex-col-reverse pt-8 pb-2 md:flex-row">
         <div className="mr-auto">
           <h2 className=" pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            👋 Hello
+            👋 <TextGradient text="Hello" />
           </h2>
+
           <h2 className="sm:text-md flex pb-1 text-gray-500 dark:text-gray-400">
             Welcome to my blog, my name is <KienPronunciation />
           </h2>
@@ -96,7 +99,8 @@ export default function Profile() {
           <div className="flex flex-col justify-center text-gray-500  dark:text-gray-400">
             <div className="flex items-center justify-center pt-3">
               <HiLocationMarker className="h-18 w-18" />{' '}
-              <span className="pl-1">Toronto, Canada 🇨🇦 </span>
+              <span className="pl-1">Toronto, Canada </span>{' '}
+              <FlagIcon className="ml-2" code="CA" size={24} />
             </div>
             <div className="flex justify-center space-x-3 pt-4">
               <SocialIcon kind="mail" href={`mailto:hello@kien.dev`} size="6" />

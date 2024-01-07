@@ -29,7 +29,7 @@ tags: ['life']
 
 You can tell the 2023 goals I set were pretty lacklustre, however, I did anticipate a new job change going in despite many layoffs happening which I was _not_ going to be posting on my blog while still employed. That of course dictated how the rest of my 2023 was going to shape up and I’m very glad that it went better than I had expected.
 
-# Relection
+# Reflection
 
 I felt confident coming into 2023 with 3 years of programming experience at Coveo. I had polished and ironed out my skills as a programmer, grasping the fundamentals of debugging and developing features with React. As time passed, I gained valuable experience. When I sensed that my personal growth was slowing down, I followed my instincts, applied for new opportunities, and was fortunate enough to secure a new position at theScore.
 
