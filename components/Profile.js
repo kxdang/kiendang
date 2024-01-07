@@ -94,7 +94,7 @@ export default function Profile() {
             alt="avatar"
             width="150px"
             height="150px"
-            className="h-48 w-48 rounded-full"
+            className="h-48 w-48 rounded-full object-cover"
           />
           <div className="flex flex-col justify-center text-gray-500  dark:text-gray-400">
             <div className="flex items-center justify-center pt-3">
