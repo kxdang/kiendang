@@ -20,7 +20,7 @@ export default async function handler(req, res) {
       const author = $element.find('td.field.author a').text().trim()
       const url = $element.find('td.field.title a').attr('href')
       const originalUrl = $element.find('td.field.cover img').attr('src')
-      const imageUrl = originalUrl.replace(/_SY\d+_/i, '_SY275_')
+      const imageUrl = originalUrl.replace(/_S[XY]\d+_/i, '_SY275_')
 
       currentlyReading.push({ title, author, url, imageUrl })
     })
