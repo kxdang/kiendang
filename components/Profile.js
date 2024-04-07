@@ -25,7 +25,7 @@ export default function Profile() {
   useEffect(() => {
     if (data) {
       const { numOfReadBooks, currentlyReading } = data
-      const numOfReadBooksExtracted = numOfReadBooks.match(/\((\d+)\)/)[1]
+      const numOfReadBooksExtracted = parseInt(numOfReadBooks?.match(/\(\s*(\d+)\s*\)/)[1])
       setBookData({
         numOfReadBooks: numOfReadBooksExtracted,
         currentlyReading,
