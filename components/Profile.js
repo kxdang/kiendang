@@ -28,7 +28,7 @@ export default function Profile() {
       const numOfReadBooksExtracted = parseInt(numOfReadBooks?.match(/\(\s*(\d+)\s*\)/)[1])
       setBookData({
         numOfReadBooks: numOfReadBooksExtracted,
-        currentlyReading,
+        currentlyReading: currentlyReading ?? [],
       })
     }
   }, [data])

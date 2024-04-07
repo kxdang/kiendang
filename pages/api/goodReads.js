@@ -4,7 +4,16 @@ import * as cheerio from 'cheerio'
 export default async function handler(req, res) {
   try {
     const url = 'https://www.goodreads.com/review/list/63733680-kien-dang?shelf=currently-reading'
-    const response = await axios.get(url)
+    const headers = {
+      'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+      Accept:
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'Accept-Language': 'en-US,en;q=0.9',
+      'Accept-Encoding': 'gzip, deflate, br',
+      Connection: 'keep-alive',
+    }
+    const response = await axios.get(url, { headers })
     const html = response.data
     const $ = cheerio.load(html)
 
