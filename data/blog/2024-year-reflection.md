@@ -50,7 +50,7 @@ Career
 
 - I have been taking a lot more responsibilities, one including being a mentor for our interns
 - Mentoring in tech has been a significant experience for me. Having previously mentored students in academia, I’ve found it both similar and distinct from real-world mentoring, especially in the tech industry
-- Being around lots of senior developers made me realize that I could also be a senior dev by inhibiting traits of others, it also forces me to grow out of my comfort zone
+- Being around lots of senior developers made me realize that I could also be a senior dev by adopting traits of others, it also forces me to grow out of my comfort zone
 
 Although this year has been relatively quiet, work kept me quite busy. I didn't take any vacations, focusing instead on budgeting for some major expenses coming up in 2025.
 I’m hoping my efforts in improving at work will earn me a promotion this year in 2025. It will be one of the biggest milestones to achieve after becoming a developer 5 years ago.
