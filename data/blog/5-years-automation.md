@@ -1,7 +1,7 @@
 ---
 author: Kien
 date: 2025-04-02
-title: ♠️ Five Years as an IC: A Blink and a Lifetime in Tech
+title: ♠️ Five Years as an IC - A Blink and a Lifetime in Tech
 summary: Looking back at my progress so far, and what I'm noticing.
 tags: ['life']
 ---
@@ -10,7 +10,7 @@ After reading _Software Guidebook to Senior Developer_ and reflecting on my five
 
 Five years in tech is strange. On one hand, it's a relatively short amount of time — especially when compared to seasoned veterans who've seen entire tech stacks rise and fall. On the other hand, five years feels like a lifetime when you consider how quickly this industry evolves. The pace of change is relentless.
 
-Being five years behind on a framework doesn’t just feel like you’ve missed a couple of updates; it can feel like you’re dragging along a decade’s worth of tech debt. Not only that, but it felt like I had just got into tech and I’m already reading that its about to automated, or so I’ve been told, its quite close.
+Being five years behind on a framework doesn’t just feel like you’ve missed a couple of updates; it can feel like you’re dragging along a decade’s worth of tech debt. Not only that, but it felt like I had just got into tech and I’m already reading that its about to be automated, or so I’ve been told... its quite close.
 
 That being said, I have some internal thoughts and opinions of what I think might be the future of software developers.
 
