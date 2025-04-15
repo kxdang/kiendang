@@ -17,6 +17,14 @@ export async function getStaticProps() {
 const queryClient = new QueryClient()
 
 export default function Home({ posts }) {
+  const selectedTitles = [
+    '🍅 NeetCode × Pomodoro: A Love Letter to My Inner Dev 💌',
+    '♠️ Five Years as an IC - A Blink and a Lifetime in Tech',
+    '📊My Year Journey in Becoming a Developer',
+  ]
+
+  const filteredPosts = posts.filter((post) => selectedTitles.includes(post.title))
+
   return (
     <QueryClientProvider client={queryClient}>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
@@ -24,7 +32,17 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-2">
           <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14">
-            Latest Blog Posts
+            ⭐ Starred Posts
+          </h3>
+        </div>
+        <div className="grid grid-cols-1 gap-5 pt-10 sm:grid-cols-2 md:grid-cols-3">
+          <PostCard posts={filteredPosts} />
+        </div>
+      </div>
+      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="space-y-2 pt-6 pb-2">
+          <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14">
+            ✍️ Latest Blog Posts
           </h3>
           <p className="sm:text-md flex text-gray-500 dark:text-gray-400">
             {siteMetadata.description} <span className="ml-2 text-[8px]">lol</span>
