@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Kien Dang',
+  title: 'Kien Dang | Blog',
   author: 'Kien Dang',
   headerTitle: 'Kien Dang',
   description:
